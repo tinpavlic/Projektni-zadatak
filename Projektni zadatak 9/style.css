@@ -1,0 +1,153 @@
+body, html {
+	font-family: 'Oswald', sans-serif;
+	margin: 0;
+	font-size: 16px;
+}
+header {
+	display: block;
+	width: 100%;
+}
+.okno-logo {
+	background-image: url("images/aura1.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	height: 500px;
+}
+ .lista ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+}
+ .lista li{
+	float: left;
+}
+.lista li a{
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover {
+	background-color: #111;
+}
+
+figure {
+	padding: 0.5em;
+	margin: 0 1em 0.5em 1em;
+	float: left;
+	width: 40%;
+}
+figcaption {
+	font-size: 90%;
+}
+img {
+	width: 100%;
+}
+
+p {
+	margin: 1em;
+	line-height: 1.5em;
+	letter-spacing: 0.8px;
+}
+figcaption {
+	font-size: 110%;
+}
+h1,h2{
+	margin: 0.5em;
+}
+
+.reference img{
+	width: 15%;
+	float: left;
+	margin: 0 1em 0.5em 0.5em;
+	padding: 0.5em;
+}
+.reference h2 {
+	margin: 0.5em 0.7em;
+	font-size: 2em;
+	color: orange;
+}	
+hr {
+	margin: 0.5em;
+	clear: both;
+}
+.galerija_referenci figure{
+	width:20%;
+	margin: 0 1em 0.5em 1em;
+	float: left;
+	padding: 0.5em;
+	border: 1px solid black;
+
+}
+.galerija_referenci figcaption{
+	text-align: center;
+}
+
+.kontakt{
+	margin:15px;
+}
+
+
+footer {
+	background-color: black;
+	padding: 0.1em;
+	clear: both;
+	text-align: center;
+	color: white;
+}
+footer img {
+	width: 20px;
+}
+
+label {
+	display: block;
+}
+input[type=text], input[type=email], select, textarea {
+    width: 35%;
+    padding: 10px;
+    border: 1px solid black;
+	border-radius: 5px;
+	box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+.galerija figure {
+	width:22%;
+	margin: 0 1em 0.5em 1em;
+	float: left;
+	padding: 0.72em;
+	border: 1px solid black;
+	
+}
+.galerija figcaption {
+	text-align: center;
+	height: 35px;
+
+}
+
+input[type=submit] {
+    display: block;
+	background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+	width: 25%;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+video {
+	margin: 0 2em 1em 1em;
+	float: left;
+}
+

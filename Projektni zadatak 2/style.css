@@ -8,24 +8,24 @@ header {
 	width: 100%;
 }
 .okno-logo {
-	background-image: url("images/logo.jpg");
+	background-image: url("aura1.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
 	height: 500px;
 }
-ul {
+.lista ul{
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
 	background-color: #333;
 }
-li {
+ .lista li{
 	float: left;
 }
-li a {
+.lista li a{
 	display: block;
 	color: white;
 	text-align: center;
