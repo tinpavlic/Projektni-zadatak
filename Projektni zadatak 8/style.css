@@ -145,3 +145,32 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #45a049;
 }
+
+@media screen and (max-width: 1000px) {
+	.figure {
+		width: 90%;
+		margin: 0.75em;
+	}
+	.reference img {
+		width: 95%;
+		padding: 0.5em;
+		margin: 0 1em 0.5em 0.2em;
+	}
+	.galerija_referenci figure {
+		width: 90%;
+		padding: 0.5em;
+		margin: 0 1em 0.5em 0.5em;
+	}
+	.galerija figure {
+		width:26%;
+		margin: 0 0.5em 0.5em 0.5em;
+		padding: 0.5em;
+	}
+
+	.galerija figcaption {
+		text-align: center;
+		height: 80px;
+		font-size: 90%;
+	}
+}
+	

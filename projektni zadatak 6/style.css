@@ -102,3 +102,21 @@ footer {
 footer img {
 	width: 20px;
 }
+
+@media screen and (max-width: 1000px) {
+	.figure {
+		width: 90%;
+		margin: 0.75em;
+	}
+	.reference img {
+		width: 95%;
+		padding: 0.5em;
+		margin: 0 1em 0.5em 0.2em;
+	}
+	.galerija_referenci figure {
+		width: 90%;
+		padding: 0.5em;
+		margin: 0 1em 0.5em 0.5em;
+	}
+}
+	
